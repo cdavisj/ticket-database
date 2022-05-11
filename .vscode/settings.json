@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "typeinfo": "c",
+        "readsubs.h": "c",
+        "limits.h": "c"
+    }
+}

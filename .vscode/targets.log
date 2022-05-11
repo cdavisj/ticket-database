@@ -1,0 +1,426 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for arm-unknown-linux-gnueabihf
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue May 10 23:09:03 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 8)
+OBJ = parking.o misc.o readsubs.o commands.o split_input.o insert_ticket.o del_ticket.o vehicle_lookup.o free_tickets.o hashsubs.o
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/linux/ieng6/cs30sp22/cs30sp22bt/.vscode-server
+# makefile (from 'Makefile', line 6)
+SRC = parking.c readsubs.c hashdb.c misc.c commands.c split_input.c
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+MODULEPATH = /software/modules:/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/linux/ieng6/cs30sp22/cs30sp22bt/PA3
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/linux/ieng6/cs30sp22/cs30sp22bt/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/node
+# makefile (from 'Makefile', line 24)
+CFLAGS = -I. $(DEBUG) $(WARN) $(CSTD) $(CDEFS)
+# makefile (from 'Makefile', line 23)
+CDEFS = 
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from 'Makefile', line 20)
+DEBUG = -ggdb
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOADEDMODULES_modshare = http-proxy:1:valgrind:1
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/14561/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 21)
+CSTD = 
+# environment
+VSCODE_CWD = /home/linux/ieng6/cs30sp22/cs30sp22bt
+# environment
+VALGRIND = /software/valgrind
+# environment
+_LMFILES__modshare = /software/modules/http-proxy:1:/software/modules/valgrind:1
+# environment
+SSH_CONNECTION = 128.54.70.235 36134 172.17.88.111 22
+# environment
+PATH = /home/linux/ieng6/cs30sp22/cs30sp22bt/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/bin/remote-cli:/software/valgrind/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+# makefile (from 'Makefile', line 2)
+PROG = parking
+# environment
+XDG_RUNTIME_DIR = /run/user/14561
+# environment
+MODULES_CMD = /usr/lib/arm-linux-gnueabihf/modulecmd.tcl
+# environment
+TEXTDOMAIN = Linux-PAM
+# environment
+BASH_ENV = /usr/share/modules/init/bash
+# makefile (from 'Makefile', line 16)
+LIBFLAGS = -L ./ $(LIB)
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/14561/vscode-ipc-3a67fcd3-4847-4ef5-a09e-0320bb17fbbd.sock
+# makefile (from 'Makefile', line 15)
+LIB = libpa3.a
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/linux/ieng6/cs30sp22/cs30sp22bt/PA3
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 7)
+HEAD = commands.h hashdb.h misc.h readsubs.h split_input.h
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/linux/ieng6/cs30sp22/cs30sp22bt
+# environment
+LD_LIBRARY_PATH = /software/valgrind/lib
+# environment
+MODULEPATH_modshare = /etc/environment-modules/modules:1:/usr/share/modules/$MODULE_VERSION/modulefiles:1:/software/modules:1:/usr/share/modules/versions:1:/usr/share/modules/modulefiles:1
+# environment
+MODULESHOME = /usr/share/modules
+# makefile (from 'Makefile', line 22)
+WARN = -Wall -Wextra -Werror
+# environment
+LOGNAME = cs30sp22bt
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 19)
+CC = gcc
+# environment
+XDG_SESSION_ID = 65823
+# environment
+USER = cs30sp22bt
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 12)
+TDIR = ./tests
+# environment
+PATH_modshare = /software/valgrind/bin:1:/usr/sbin:1:/bin:1:/usr/bin:1:/usr/games:1:/usr/local/sbin:1:/usr/local/bin:1:/sbin:1:/usr/local/games:1
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 128.54.70.235 36134 22
+# environment
+MAIL = /var/mail/cs30sp22bt
+# environment
+LOADEDMODULES = valgrind:http-proxy
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/linux/ieng6/cs30sp22/cs30sp22bt/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+_LMFILES_ = /software/modules/valgrind:/software/modules/http-proxy
+# environment
+https_proxy = web.ucsd.edu:3128
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+ 
+# default
+SUFFIXES := 
+# environment
+LD_LIBRARY_PATH_modshare = /software/valgrind/lib:1
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+http_proxy = web.ucsd.edu:3128
+# default
+MAKE_HOST := arm-unknown-linux-gnueabihf
+# environment
+ENV = /usr/share/modules/init/profile.sh
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=96/1024=9%, Rehash=0, Collisions=11/126=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 41, inode 108403661): 33 files, no impossibilities.
+
+# 33 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+command.o: hashdb.h commands.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: parking
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean clobber update
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+demo: parking
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	./parking -f $(TDIR)/in/Fines.csv -d $(TDIR)/in/Tiny.csv -t3
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-28 11:01:19
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+split_input.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-24 10:07:30
+#  File has been updated.
+#  Successfully updated.
+
+update:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	cp -p ~/public/libpa3.a .
+
+debug: demo
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+commands.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-17 15:25:18
+#  File has been updated.
+#  Successfully updated.
+
+test: parking
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 44):
+	(cd $(TDIR); make $@)
+
+misc.o: misc.h
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 12:56:36.022536
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+hashdb.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-25 08:27:22
+#  File has been updated.
+#  Successfully updated.
+
+free_tickets.o: hashdb.h
+#  Implicit rule search has been done.
+#  Last modified 2022-05-09 22:29:57.134268
+#  File has been updated.
+#  Successfully updated.
+
+clobber: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 59):
+	rm -f core
+
+hashsubs.o: hashdb.h
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 12:56:37.505513
+#  File has been updated.
+#  Successfully updated.
+
+del_ticket.o: hashdb.h
+#  Implicit rule search has been done.
+#  Last modified 2022-05-09 23:54:00.314873
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+readsubs.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-17 15:35:29
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	rm -f $(OBJ) $(PROG)
+	(cd $(TDIR); make $@)
+
+vehicle_lookup.o: hashdb.h
+#  Implicit rule search has been done.
+#  Last modified 2022-05-09 21:04:30.185599
+#  File has been updated.
+#  Successfully updated.
+
+split_input.o: hashdb.h split_input.h
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 15:35:57.847925
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+misc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-24 10:07:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+commands.o:
+ 
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 12:56:36.420533
+#  File has been updated.
+#  Successfully updated.
+
+hashdb.o: hashdb.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+parking: parking.o misc.o readsubs.o commands.o split_input.o insert_ticket.o del_ticket.o vehicle_lookup.o free_tickets.o hashsubs.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-10 01:54:08.814492
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	$(CC) $(CFLAGS) $(OBJ) $(LIBFLAGS) -o $@
+
+parking.o: hashdb.h misc.h readsubs.h commands.h
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 12:56:35.847515
+#  File has been updated.
+#  Successfully updated.
+
+insert_ticket.o: hashdb.h readsubs.h
+#  Implicit rule search has been done.
+#  Last modified 2022-05-10 01:54:08.647488
+#  File has been updated.
+#  Successfully updated.
+
+readsubs.o: hashdb.h readsubs.h misc.h split_input.h
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 12:56:36.22354
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=29/1024=3%, Rehash=0, Collisions=1/83=1%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 47 / storage = 477 B / avg = 10 B
+# current buf: size = 8174 B / used = 477 B / count = 47 / avg = 10 B
+
+# strcache performance: lookups = 120 / hit rate = 60%
+# hash-table stats:
+# Load=47/8192=1%, Rehash=0, Collisions=1/120=1%
+# Finished Make data base on Tue May 10 23:09:03 2022
+
+ 

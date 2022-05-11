@@ -1,0 +1,17 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/linux/ieng6/cs30sp22/cs30sp22bt/PA3'
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o parking.o parking.c
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o misc.o misc.c
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o readsubs.o readsubs.c
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o commands.o commands.c
+ 
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o split_input.o split_input.c
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o insert_ticket.o insert_ticket.c
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o del_ticket.o del_ticket.c
+ 
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o vehicle_lookup.o vehicle_lookup.c
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o free_tickets.o free_tickets.c
+gcc -I. -ggdb -Wall -Wextra -Werror     -c -o hashsubs.o hashsubs.c
+gcc -I. -ggdb -Wall -Wextra -Werror   parking.o misc.o readsubs.o commands.o split_input.o insert_ticket.o del_ticket.o vehicle_lookup.o free_tickets.o hashsubs.o -L ./ libpa3.a -o parking
+make: Leaving directory '/home/linux/ieng6/cs30sp22/cs30sp22bt/PA3'
+ 
